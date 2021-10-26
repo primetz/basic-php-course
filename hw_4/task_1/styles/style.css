@@ -1,0 +1,40 @@
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.gallery-list,
+.gallery-list__link {
+    display: flex;
+}
+
+.gallery-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 525px;
+    list-style: none;
+}
+
+.gallery-list__item {
+    margin: 0 25px 25px 0;
+}
+
+.image-upload {
+    width: 400px;
+}
+
+.image-upload__fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+.image-upload__input {
+    margin: 0 0 25px 0;
+}
